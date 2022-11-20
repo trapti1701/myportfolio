@@ -1,0 +1,86 @@
+.container-project{
+    background-color: black;
+}
+.span1{
+    color:orange;
+    font-size: 5vh;
+    font-weight: bold;   
+}
+h1
+ {     
+    color: aqua;
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.box{
+    
+    height: 50vh;
+    width: 55vw;
+    margin-top: 10vh;
+    margin-left: 21vw;
+    background: #2c2c2c;
+    border-radius: 3vh;
+    transition: all ease 0.2s;
+    border: 1px solid #333;
+    box-shadow: 0px 5px 10px 0px rgba(223, 119, 21, 0.7);
+    text-align: center;
+    
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 10px 20px 2px rgba(223, 119, 21, 0.7);
+}
+
+/* Project details  */
+.project-details{
+    
+    height: 50vh;
+    width: 55vw;
+    margin-top: 10vh;
+    margin-left: 21vw;
+    background: white;
+    color: black;
+    border-radius: 1vh;
+    text-align: left;
+}
+
+@media (max-width:800px)
+{
+    .box{
+    
+        height: 50vh;
+        width: 70vw;
+        margin-top: 10vh;
+        margin-left: 11vw;
+        background: #2c2c2c;
+        border-radius: 3vh;
+        transition: all ease 0.2s;
+        border: 1px solid #333;
+        box-shadow: 0px 5px 10px 0px rgba(223, 119, 21, 0.7);
+        text-align: center;
+        
+    }
+    
+    .box:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 10px 20px 2px rgba(223, 119, 21, 0.7);
+    }
+    
+    /* Project details  */
+    .project-details{
+        
+        height: 50vh;
+        width: 70vw;
+        margin-top: 10vh;
+        margin-left: 11vw;
+        background: white;
+        color: black;
+        border-radius: 1vh;
+        text-align: left;
+    }
+    
+}

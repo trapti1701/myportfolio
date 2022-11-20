@@ -1,0 +1,151 @@
+
+.mycol1{
+    width: 50%;
+    background-color: black;
+    
+}
+.mycol2{
+    height: 80vh;
+    width: 50%;
+    background-color: black;
+}
+.photo{
+    height:100%;
+    width: 60%;
+
+}
+
+/* Desktop screen */
+@media (min-width:800px)
+{
+    .name{
+        position: relative;
+       top:43vh;
+       left:10vw;
+        font-size: 8vw;
+        color: white;
+        z-index: 1;
+        font-family: Courier Bold,Courier,Georgia,Times;
+    }
+    
+    .surname{
+        position: relative;
+        top: 34vh;
+        left:16vw;
+        font-size: 9vw;
+        color: orange;
+        z-index: 2;
+        font-family: Courier Bold,Courier,Georgia,Times;
+
+    }
+    .myshadow{
+        position: fixed;
+       top:6vh;
+       left:0;
+        font-size: 47vw;
+        color:rgb(26, 25, 25);
+        z-index: 0;
+        
+
+    }
+    .ident{
+
+        position: relative;
+        top: 31vh;
+        left:36vw;
+        font-size: 1.5vw;
+        color: white;
+        z-index: 2;
+        
+    }
+    .btn{
+        position: relative;
+        top: 30vh;
+        left:36vw;
+        font-size: 2vw;
+        color: white;
+        z-index: 2;
+        background-color: orange;
+        border: none;
+        color: white;
+        /* padding: 12px 30px; */
+        cursor: pointer;
+        font-size: 20px;
+    }
+    img:hover{
+        
+    }
+    
+
+}
+
+/* Mobile screen */
+@media (max-width:800px)
+{
+    .mycol2{
+        width: 100%;
+        position: relative;
+        margin-left: 0;
+        z-index: -1;
+    }
+    .mycol1{
+        position: fixed;
+        margin-left: 0;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    .photo{
+        width: 60%;
+        
+    }
+
+    .name{
+        position: relative;
+       top:45vh;
+       left:12vw;
+        font-size: 8vh;
+        color: white;
+        z-index: 1;
+        font-family: Courier Bold,Courier,Georgia,Times;
+    }
+    
+    .surname{
+        position: relative;
+        top: 39vh;
+        left:18vw;
+        font-size: 9vh;
+        color: orange;
+        z-index: 2;
+        font-family: Courier Bold,Courier,Georgia,Times;
+
+    }
+    .myshadow{
+        font-size: 0;
+    }
+    .ident{
+
+        position: relative;
+        top: 35vh;
+        left:30vw;
+        font-size: 3vh;
+        color: white;
+        z-index: 2;
+        
+    }
+
+    .btn{
+        position: relative;
+        top: 35vh;
+        left:30vw;
+        font-size: 2vw;
+        color: white;
+        z-index: 2;
+        background-color: orange;
+        border: none;
+        color: white;
+        /* padding: 12px 30px; */
+        cursor: pointer;
+        font-size: 20px;
+    }
+}

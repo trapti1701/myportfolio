@@ -1,0 +1,31 @@
+button{
+    background-color: white;
+}
+
+.name{
+    font-size: 5vh;
+    font-weight: bold;
+    color:grey;
+    text-decoration: none;
+
+}
+
+nav{
+background-color: black;
+
+}
+
+a{
+    color: grey;
+    padding-right: 10vh;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+
+li{
+    padding-right: 10vh;
+}
+
+a:hover{
+    color: orange
+}

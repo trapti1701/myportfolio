@@ -1,0 +1,16 @@
+
+
+img{
+    transition: 0.5s all ease-in-out;
+}
+img:hover{
+    transform: scale(1.5);
+
+}
+.footrow{
+    width: fit-content;
+    
+}
+.bg-dark{
+    background-color: rgb(98, 94, 94) !important;
+}
